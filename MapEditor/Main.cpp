@@ -312,7 +312,7 @@ void Main()
 						drawStrRect.y -= 5;
 						drawStrRect.w += 10;
 						drawStrRect.h += 10;
-						drawStrRect.draw(Color(0, 16, 0, 128));
+						drawStrRect.draw(Color(0, 16, 0, 192));
 						drawStrRect.drawFrame(1.0, Color(255));
 						drawStr.draw(Cursor::Pos());
 					}
